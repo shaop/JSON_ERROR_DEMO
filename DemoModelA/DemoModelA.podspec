@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'DemoModelA/Classes/**/*'
-  s.dependency 'HandyJSON'
+  s.dependency 'KakaJSON'
   
   
   # s.resource_bundles = {

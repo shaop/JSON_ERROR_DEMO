@@ -6,9 +6,9 @@
 //
 
 import Foundation
-import HandyJSON
+import KakaJSON
 
-open class BaseModel: HandyJSON {
+open class BaseModel: Convertible {
     
     public var baseVarInt: Int?
     public var baseVarString: String?

@@ -8,8 +8,8 @@ use_frameworks! :linkage => :static
 target 'JSON_ERROR_DEMO' do
   
   pod 'KakaJSON'
-  pod 'DemoModelA', :path=>'/Users/shaop/Desktop/DemoModelA'
-  pod 'DemoModelB', :path=>'/Users/shaop/Desktop/DemoModelB'
+  pod 'DemoModelA', :path=>'./DemoModelA'
+  pod 'DemoModelB', :path=>'./DemoModelB'
 end
 
 begin
